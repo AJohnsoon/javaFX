@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="painel-sources">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/git/riskpack-painel/target/painel-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

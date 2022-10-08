@@ -2,7 +2,9 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.java.main.application.gui.SampleController">
-   <Button fx:id="clickHere" layoutX="253.0" layoutY="263.0" mnemonicParsing="false" onAction="#onClickHereAction" prefHeight="39.0" prefWidth="111.0" text="Click Here" />
+   <Button fx:id="clickHere" alignment="CENTER" layoutX="248.0" layoutY="211.0" mnemonicParsing="false" onAction="#onClickHereAction" prefHeight="39.0" prefWidth="120.0" text="Click Here" textAlignment="CENTER" textFill="RED" />
+   <Label fx:id="myMessage" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="10.0" layoutX="200.0" layoutY="125.0" prefHeight="75.0" prefWidth="200.0" text="RESULT" textOverrun="CENTER_ELLIPSIS" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="125.0"  />
 </AnchorPane>

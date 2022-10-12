@@ -2,6 +2,7 @@ package src.java.main.application.gui;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import src.java.main.application.gui.util.Alerts;
 
@@ -9,6 +10,7 @@ import java.util.Random;
 
 public class SampleController {
 
+    public Button clickHere;
     @FXML
     private Label myMessage;
 

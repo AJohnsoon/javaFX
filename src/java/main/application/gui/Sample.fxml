@@ -2,7 +2,6 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.java.main.application.gui.SampleController">
    <Button fx:id="clickHere" alignment="CENTER" layoutX="248.0" layoutY="211.0" mnemonicParsing="false" onAction="#onClickHereAction" prefHeight="39.0" prefWidth="120.0" text="Click Here" textAlignment="CENTER" textFill="RED" />
